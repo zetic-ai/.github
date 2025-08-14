@@ -1,4 +1,4 @@
-![ZETIC.ai Banner](assets/banner.jpg)
+<img width="627" height="260" alt="Zetic_Logo_627x260_margin_white" src="https://github.com/user-attachments/assets/9b1bbab5-8c7f-4bf9-9953-e344420561d6" />
 
 # ZETIC.ai — On-Device AI for Every Device
 
