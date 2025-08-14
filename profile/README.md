@@ -45,20 +45,24 @@ While other frameworks focus on model quantization or partial device deployment,
 ## 📊 Real Benchmark Highlights
 
 ### YOLOv8n — NPU Latency (ms)
-| Device | Manufacturer | CPU | GPU | NPU |
-|--------|--------------|-----|-----|-----|
-| Apple iPhone 16 Pro | Apple | 122.23 | - | **1.69** |
-| Samsung Galaxy S24 Ultra | Qualcomm | 69.33 | 23.31 | **3.82** |
-| Samsung Galaxy S23 Ultra | Qualcomm | 96.61 | 30.34 | **4.71** |
-| Google Pixel 8a | Google | 105.14 | 42.91 | — |
+| Device | Manufacturer | CPU | GPU | CPU/GPU | NPU |
+|--------|--------------|-----|-----|---------|-----|
+| Apple iPhone 16 | Apple | 126.27 | - | 8.98 | **2.03** |
+| Apple iPhone 16 Pro | Apple | 122.23 | - | 7.54 | **1.69** |
+| Samsung Galaxy S24+ | Qualcomm | 69.79 | 24.38 | 618.05 | **3.85** |
+| Samsung Galaxy Tab S9 | Qualcomm | 107.78 | 30.39 | 344.42 | **5.21** |
+| Samsung Galaxy S22 Ultra 5G | Qualcomm | 103.40 | 39.73 | 100.34 | **7.41** |
+
+---
 
 ### Whisper-tiny-encoder — NPU Latency (ms)
-| Device | Manufacturer | CPU | GPU | NPU |
-|--------|--------------|-----|-----|-----|
-| Apple iPhone 16 Pro | Apple | 540.04 | - | **18.15** |
-| Samsung Galaxy S24+ | Qualcomm | 278.78 | 133.48 | **106.44** |
-| Xiaomi 12 | Qualcomm | 319.26 | 304.82 | **162.25** |
-| Samsung Galaxy A34 | MediaTek | 837.03 | 593.11 | **6080.97** |
+| Device | Manufacturer | CPU | GPU | CPU/GPU | NPU |
+|--------|--------------|-----|-----|---------|-----|
+| Apple iPhone 16 | Apple | 552.13 | - | 44.49 | **19.01** |
+| Apple iPhone 15 Pro | Apple | 527.78 | - | 43.13 | **19.40** |
+} Samsung Galaxy S23  | Qualcomm | 290.62ms | 169.82ms | 2,795.18ms | **86.88** |
+| Samsung Galaxy S24+ | Qualcomm | 278.78 | 133.48 | 2619.56 | **106.44** |
+| Samsung Galaxy S23 Ultra | Qualcomm | 308.82 | 170.08 | 2688.97 | **68.34** |
 
 > Full dataset: [MLange Benchmark Dashboard](https://zetic.ai/benchmarks)
 
