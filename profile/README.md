@@ -3,7 +3,7 @@
 # ZETIC.ai — On-Device AI for Every Device
 
 **Build. Deploy. Run. Anywhere.**  
-We eliminate the need for costly GPU cloud servers by transforming your existing AI models into **NPU-optimized, on-device runtimes** in **under 24 hours** — across **any mobile device, any OS**.
+We eliminate the need for costly GPU cloud servers by transforming your existing AI models into **NPU-optimized, on-device runtimes** in **under 6 hours** — across **any mobile device, any OS**.
 
 ---
 
