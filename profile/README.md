@@ -15,7 +15,7 @@ We eliminate the need for costly GPU cloud servers by transforming your existing
 
 ## 🚀 About ZETIC.ai
 
-AI services shouldn't be **tied** to the cloud.  
+AI services shouldn't be **tied** to the cloud. <br/><br/>
 **MLange** (pronounced *Mélange*) is our flagship **end-to-end on-device AI deployment platform**. We help mobile developers run AI models locally, from flagship smartphones to budget devices, making AI **Faster, Cheaper, Safer, and Independent**.
 
 We provide:
@@ -25,7 +25,7 @@ We provide:
 - **Benchmarking**: Test your models across **200+ global devices** with real-world hardware metrics.
 - **Full Privacy by Design**: All inference happens locally; no data leaves the device.
 
-## 🧠 Why We're Different
+### 🧠 Why We're Different
 
 While other frameworks focus on model quantization or partial device deployment, **we handle the entire lifecycle**:
 1. **Analyze** model architecture and runtime requirements.
@@ -36,7 +36,7 @@ While other frameworks focus on model quantization or partial device deployment,
 
 > No guesswork. No vendor lock-in. Just working on-device AI in hours, not weeks.
 
----
+<br/>
 
 ## 📊 Real Benchmark Highlights
 
@@ -48,8 +48,6 @@ While other frameworks focus on model quantization or partial device deployment,
 | Samsung Galaxy S25 Ultra | Qualcomm | 52.10 | 153.27 | **11.05** |
 | Samsung Galaxy Tab S9 | Qualcomm | 64.75 | 200.13 | **13.61** |
 | Xiaomi 13 Pro | Qualcomm | 58.97 | 118.20 | **12.79** |
-
----
 
 ### Whisper-tiny-encoder — NPU Latency (ms)
 | Device | Manufacturer | CPU | GPU | NPU |
