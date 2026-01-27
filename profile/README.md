@@ -72,7 +72,7 @@ While other frameworks focus on model quantization or partial device deployment,
 
 ``` swift
 // (1) Load MLange model
-let model = try ZeticMLangeModel(tokenKey: "MLANGE_PROJECT_API_KEY", "MODEL_REPO_NAME")
+let model = try ZeticMLangeModel(tokenKey: "MLANGE_PERSONAL_KEY", "MODEL_REPO_NAME")
 
 // (2) Prepare model inputs
 let inputs: [Tensor] = [] // Prepare your inputs
@@ -86,7 +86,7 @@ let outputs = try model.run(inputs)
 
 ``` kotlin
 // (1) Load MLange model
-val model = ZeticMLangeModel(context, "PERSONAL_KEY", "MODEL_REPO_NAME")
+val model = ZeticMLangeModel(context, "MLANGE_PERSONAL_KEY", "MODEL_REPO_NAME")
 
 // (2) Prepare model inputs
 val inputs: Array<Tensor> = // Prepare your inputs
