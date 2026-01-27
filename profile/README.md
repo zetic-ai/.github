@@ -1,9 +1,9 @@
 <img width="627" height="260" alt="Zetic_Logo_627x260_margin_white" src="https://github.com/user-attachments/assets/9b1bbab5-8c7f-4bf9-9953-e344420561d6" />
 
-# ZETIC.ai - The End-to-End Software Infrastructure for On-Device AI
+# ZETIC.ai - The End-to-End Infrastructure for On-Device AI
 
 **Build. Deploy. Run Anywhere.**  <br/><br/>
-We eliminate the need for costly GPU cloud servers by transforming your existing AI models into **NPU-optimized, on-device runtimes** in **hours, not weeks** — across **any mobile device, any OS**.
+We eliminate the need for costly GPU cloud servers by transforming your existing AI models into **NPU-optimized, on-device runtimes** in **hours, not weeks**, across **any mobile device, any OS**.
 
 ## 📡 Connect with Us
 [![Website](https://img.shields.io/badge/Website-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://zetic.ai)
@@ -92,13 +92,14 @@ val inputs: Array<Tensor> = // Prepare your inputs
 // (3) Run and get output tensors of the model
 val outputs = model.run(inputs)
 ```
+<br/>
 
 
 ## 🛠️ Ready to Build?
 
 Don't start from scratch. We have created a repository of **production-ready, open-source, on-device AI apps** that you can clone, run, and modify in minutes.
 
-### [Explore the ZETIC MLange Apps Repository](https://github.com/zetic-ai/ZETIC_MLange_apps)
+### [Explore MLange Apps Repository](https://github.com/zetic-ai/ZETIC_MLange_apps)
 
 <br/>
 </div>
