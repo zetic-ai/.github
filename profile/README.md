@@ -16,7 +16,7 @@ We eliminate the need for costly GPU cloud servers by transforming your existing
 ## 🚀 About ZETIC.ai
 
 AI services shouldn't be **tied** to the cloud. <br/><br/>
-**MLange** (pronounced *Mélange*) is our flagship **end-to-end on-device AI deployment platform**. We help mobile developers run AI models locally, from flagship smartphones to budget devices, making AI **Faster, Cheaper, Safer, and Independent**.
+**Mélange** is our flagship **end-to-end on-device AI deployment platform**. We help mobile developers run AI models locally, from flagship smartphones to budget devices, making AI **Faster, Cheaper, Safer, and Independent**.
 
 We provide:
 - **Automated Model Conversion**: PyTorch, ONNX, or TFLite → device-specific NPU libraries.
@@ -58,18 +58,18 @@ While other frameworks focus on model quantization or partial device deployment,
 | Samsung Galaxy S24 Ultra | Qualcomm | 270.61 | **120.29** | 147.12 |
 | Xiaomi 12 | Qualcomm | 302.33 | 280.13 | **151.77** |
 
-> *Note: Lower is better. Full dataset available on the [MLange Dashboard](https://mlange.zetic.ai).*
+> *Note: Lower is better. Full dataset available on the [Mélange Dashboard](https://mlange.zetic.ai).*
 
 <br/>
 
 ## 👨🏻‍💻 Plug-and-play Integration
 
-- Deploying NPU-accelerated models takes just a few lines of code with the **MLange SDK**.
+- Deploying NPU-accelerated models takes just a few lines of code with the **Mélange SDK**.
 
 - **iOS Integration** (Swift)
 
 ``` swift
-// (1) Load MLange model
+// (1) Load Mélange model
 let model = try ZeticMLangeModel(tokenKey: "MLANGE_PERSONAL_KEY", "MODEL_REPO_NAME")
 
 // (2) Prepare model inputs
@@ -83,7 +83,7 @@ let outputs = try model.run(inputs)
 - **Android Integration** (Kotlin, Java)
 
 ``` kotlin
-// (1) Load MLange model
+// (1) Load Mélange model
 val model = ZeticMLangeModel(context, "MLANGE_PERSONAL_KEY", "MODEL_REPO_NAME")
 
 // (2) Prepare model inputs
@@ -99,7 +99,7 @@ val outputs = model.run(inputs)
 
 Don't start from scratch. We have created a repository of **production-ready, open-source, on-device AI apps** that you can clone, run, and modify in minutes.
 
-### [Explore MLange Apps Repository](https://github.com/zetic-ai/ZETIC_MLange_apps)
+### [Explore Mélange Apps Repository](https://github.com/zetic-ai/ZETIC_MLange_apps)
 
 <br/>
 </div>
