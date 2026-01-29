@@ -110,17 +110,17 @@ Don't start from scratch. We have created a repository of **production-ready, op
 
 ### Official Links
 - **Website**: [zetic.ai](https://zetic.ai)
-- **MLange Dashboard**: [mlange.zetic.ai](https://mlange.zetic.ai) — Get NPU-optimized SDKs, view benchmarks, and upload custom models.
+- **Mélange Dashboard**: [mlange.zetic.ai](https://mlange.zetic.ai) — Get NPU-optimized SDKs, view benchmarks, and upload custom models.
 - **Documentation**: [docs.zetic.ai](https://docs.zetic.ai) — Full API reference and implementation guides.
 - **Discord**: [Join our Community](https://discord.com/invite/gVFX6myuMx) — Get support, share your projects, and meet other developers.
 
 ### Check Out Our Official App
-See MLange performance in action on your own device: **ZeticApp**: [**Android**](https://play.google.com/store/apps/details?id=com.zeticai.zeticapp) | [**iOS**](https://apps.apple.com/app/zeticapp/id6739862746)
+See Mélange performance in action on your own device: **ZeticApp**: [**Android**](https://play.google.com/store/apps/details?id=com.zeticai.zeticapp) | [**iOS**](https://apps.apple.com/app/zeticapp/id6739862746)
 
 <div align="center">
 
 **By ZETIC.ai**
 
-[⭐ Star us on GitHub](https://github.com/zetic-ai/ZETIC_MLange_apps) • [🐛 Report Bug](https://github.com/zetic-ai/ZETIC_MLange_apps/issues) • [💡 Request Features](https://discord.com/invite/gVFX6myuMx) • [🚀 Try MLange](https://mlange.zetic.ai) • [📖 Documentation](https://docs.zetic.ai)
+[⭐ Star us on GitHub](https://github.com/zetic-ai/ZETIC_MLange_apps) • [🐛 Report Bug](https://github.com/zetic-ai/ZETIC_MLange_apps/issues) • [💡 Request Features](https://discord.com/invite/gVFX6myuMx) • [🚀 Try Mélange](https://mlange.zetic.ai) • [📖 Documentation](https://docs.zetic.ai)
 
 </div>
