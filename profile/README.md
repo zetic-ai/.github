@@ -7,7 +7,7 @@ We eliminate the need for costly GPU cloud servers by transforming your existing
 
 ## 📡 Connect with Us
 [![Website](https://img.shields.io/badge/Website-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://zetic.ai)
-[![Discord](https://img.shields.io/badge/Discord-Join%20Us-7289da?style=for-the-badge&logo=discord&logoColor=white)](https://discord.com/invite/gVFX6myuMx)
+[![Discord](https://img.shields.io/badge/Discord-Join%20Us-7289da?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/t46jvc6U)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/company/zetic-ai)
 [![Email](https://img.shields.io/badge/Email-red?style=for-the-badge&logo=gmail&logoColor=white)](mailto:contact@zetic.ai)
 
@@ -112,7 +112,7 @@ Don't start from scratch. We have created a repository of **production-ready, op
 - **Website**: [zetic.ai](https://zetic.ai)
 - **Mélange Dashboard**: [mlange.zetic.ai](https://mlange.zetic.ai) — Get NPU-optimized SDKs, view benchmarks, and upload custom models.
 - **Documentation**: [docs.zetic.ai](https://docs.zetic.ai) — Full API reference and implementation guides.
-- **Discord**: [Join our Community](https://discord.com/invite/gVFX6myuMx) — Get support, share your projects, and meet other developers.
+- **Discord**: [Join our Community](https://discord.gg/t46jvc6U) — Get support, share your projects, and meet other developers.
 
 ### Check Out Our Official App
 See Mélange performance in action on your own device: **ZeticApp**: [**Android**](https://play.google.com/store/apps/details?id=com.zeticai.zeticapp) | [**iOS**](https://apps.apple.com/app/zeticapp/id6739862746)
@@ -121,6 +121,6 @@ See Mélange performance in action on your own device: **ZeticApp**: [**Android*
 
 **By ZETIC.ai**
 
-[⭐ Star us on GitHub](https://github.com/zetic-ai/ZETIC_MLange_apps) • [🐛 Report Bug](https://github.com/zetic-ai/ZETIC_MLange_apps/issues) • [💡 Request Features](https://discord.com/invite/gVFX6myuMx) • [🚀 Try Mélange](https://mlange.zetic.ai) • [📖 Documentation](https://docs.zetic.ai)
+[⭐ Star us on GitHub](https://github.com/zetic-ai/ZETIC_MLange_apps) • [🐛 Report Bug](https://github.com/zetic-ai/ZETIC_MLange_apps/issues) • [💡 Request Features](https://discord.gg/t46jvc6U) • [🚀 Try Mélange](https://mlange.zetic.ai) • [📖 Documentation](https://docs.zetic.ai)
 
 </div>
