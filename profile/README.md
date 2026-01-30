@@ -1,8 +1,10 @@
 <img width="627" height="260" alt="Zetic_Logo_627x260_margin_white" src="https://github.com/user-attachments/assets/9b1bbab5-8c7f-4bf9-9953-e344420561d6" />
 
-# ZETIC.ai - The End-to-End Infrastructure for On-Device AI
+# ZETIC.ai - On-Device AI for Everything
 
-**Build. Deploy. Run Anywhere.**  <br/><br/>
+**Build. Deploy. Run Anywhere.**  <br/>
+<i> for any model, on any device, in any framework <i/> <br/><br/>
+
 We eliminate the need for costly GPU cloud servers by transforming your existing AI models into **NPU-optimized, on-device runtimes** in **hours, not weeks**, across **any mobile device, any OS**.
 
 ## 📡 Connect with Us
