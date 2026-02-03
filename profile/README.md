@@ -2,7 +2,7 @@
 
 # ZETIC - On-Device AI for Everything
 
-**Build. Deploy. Run Anywhere.**  <br/>
+**Select. Benchmark. Deploy.**  <br/>
 <i> for any model, on any device, in any framework <i/> <br/><br/>
 
 We eliminate the need for costly GPU cloud servers by transforming your existing AI models into **NPU-optimized, on-device runtimes** in **hours, not weeks**, across **any mobile device, any OS**.
