@@ -1,6 +1,6 @@
 <img width="627" height="260" alt="Zetic_Logo_627x260_margin_white" src="https://github.com/user-attachments/assets/9b1bbab5-8c7f-4bf9-9953-e344420561d6" />
 
-# ZETIC.ai - On-Device AI for Everything
+# ZETIC - On-Device AI for Everything
 
 **Build. Deploy. Run Anywhere.**  <br/>
 <i> for any model, on any device, in any framework <i/> <br/><br/>
@@ -18,7 +18,7 @@ We eliminate the need for costly GPU cloud servers by transforming your existing
 ## 🚀 About ZETIC.ai
 
 AI services shouldn't be **tied** to the cloud. <br/><br/>
-**MeLange** is our flagship **end-to-end on-device AI deployment platform**. We help mobile developers run AI models locally, from flagship smartphones to budget devices, making AI **Faster, Cheaper, Safer, and Independent**.
+**Melange** is our flagship **end-to-end on-device AI deployment platform**. We help mobile developers run AI models locally, from flagship smartphones to budget devices, making AI **Faster, Cheaper, Safer, and Independent**.
 
 We provide:
 - **Automated Model Conversion**: PyTorch, ONNX, or TFLite → device-specific NPU libraries.
@@ -60,18 +60,18 @@ While other frameworks focus on model quantization or partial device deployment,
 | Samsung Galaxy S24 Ultra | Qualcomm | 270.61 | **120.29** | 147.12 |
 | Xiaomi 12 | Qualcomm | 302.33 | 280.13 | **151.77** |
 
-> *Note: Lower is better. Full dataset available on the [MeLange Dashboard](https://mlange.zetic.ai).*
+> *Note: Lower is better. Full dataset available on the [Melange Dashboard](https://mlange.zetic.ai).*
 
 <br/>
 
 ## 👨🏻‍💻 Plug-and-play Integration
 
-- Deploying NPU-accelerated models takes just a few lines of code with the **MeLange SDK**.
+- Deploying NPU-accelerated models takes just a few lines of code with the **Melange SDK**.
 
 - **iOS Integration** (Swift)
 
 ``` swift
-// (1) Load MeLange model
+// (1) Load Melange model
 let model = try ZeticMLangeModel(tokenKey: "MLANGE_PERSONAL_KEY", "MODEL_REPO_NAME")
 
 // (2) Prepare model inputs
@@ -85,7 +85,7 @@ let outputs = try model.run(inputs)
 - **Android Integration** (Kotlin, Java)
 
 ``` kotlin
-// (1) Load MeLange model
+// (1) Load Melange model
 val model = ZeticMLangeModel(context, "MLANGE_PERSONAL_KEY", "MODEL_REPO_NAME")
 
 // (2) Prepare model inputs
@@ -101,7 +101,7 @@ val outputs = model.run(inputs)
 
 Don't start from scratch. We have created a repository of **production-ready, open-source, on-device AI apps** that you can clone, run, and modify in minutes.
 
-### [Explore MeLange Apps Repository](https://github.com/zetic-ai/ZETIC_MLange_apps)
+### [Explore Melange Apps Repository](https://github.com/zetic-ai/ZETIC_MLange_apps)
 
 <br/>
 </div>
@@ -112,17 +112,17 @@ Don't start from scratch. We have created a repository of **production-ready, op
 
 ### Official Links
 - **Website**: [zetic.ai](https://zetic.ai)
-- **MeLange Dashboard**: [mlange.zetic.ai](https://mlange.zetic.ai) — Get NPU-optimized SDKs, view benchmarks, and upload custom models.
+- **Melange Dashboard**: [mlange.zetic.ai](https://mlange.zetic.ai) — Get NPU-optimized SDKs, view benchmarks, and upload custom models.
 - **Documentation**: [docs.zetic.ai](https://docs.zetic.ai) — Full API reference and implementation guides.
 - **Discord**: [Join our Community](https://discord.gg/gqhDWfZbgU) — Get support, share your projects, and meet other developers.
 
 ### Check Out Our Official App
-See MeLange performance in action on your own device: **ZeticApp**: [**Android**](https://play.google.com/store/apps/details?id=com.zeticai.zeticapp) | [**iOS**](https://apps.apple.com/app/zeticapp/id6739862746)
+See Melange performance in action on your own device: **ZeticApp**: [**Android**](https://play.google.com/store/apps/details?id=com.zeticai.zeticapp) | [**iOS**](https://apps.apple.com/app/zeticapp/id6739862746)
 
 <div align="center">
 
 **By ZETIC.ai**
 
-[⭐ Star us on GitHub](https://github.com/zetic-ai/ZETIC_MLange_apps) • [🐛 Report Bug](https://github.com/zetic-ai/ZETIC_MLange_apps/issues) • [💡 Request Features](https://discord.gg/gqhDWfZbgU) • [🚀 Try MeLange](https://mlange.zetic.ai) • [📖 Documentation](https://docs.zetic.ai)
+[⭐ Star us on GitHub](https://github.com/zetic-ai/ZETIC_MLange_apps) • [🐛 Report Bug](https://github.com/zetic-ai/ZETIC_MLange_apps/issues) • [👾 Discord](https://discord.gg/gqhDWfZbgU) • [🚀 Try Melange](https://mlange.zetic.ai) • [📖 Documentation](https://docs.zetic.ai)
 
 </div>
