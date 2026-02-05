@@ -1,4 +1,4 @@
-<img width="627" height="260" alt="Zetic_Logo_627x260_margin_white" src="https://github.com/user-attachments/assets/9b1bbab5-8c7f-4bf9-9953-e344420561d6" />
+<img width="3601" height="1076" alt="Artboard 8 copy@3x" src="https://github.com/user-attachments/assets/90b96737-55a0-45b9-be47-cec2073bf6fe" />
 
 # ZETIC - On-Device AI for Everything
 
