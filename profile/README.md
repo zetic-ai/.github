@@ -16,7 +16,7 @@ We eliminate the need for costly GPU cloud servers by transforming your existing
 
 ---
 
-## 🚀 About ZETIC.ai
+## 🚀 About ZETIC
 
 AI services shouldn't be **tied** to the cloud. <br/><br/>
 **Melange** is our flagship **end-to-end on-device AI deployment platform**. We help mobile developers run AI models locally, from flagship smartphones to budget devices, making AI **Faster, Cheaper, Safer, and Independent**.
@@ -122,7 +122,7 @@ See Melange performance in action on your own device: **ZeticApp**: [**Android**
 
 <div align="center">
 
-**By ZETIC.ai**
+**By ZETIC**
 
 [⭐ Star us on GitHub](https://github.com/zetic-ai/ZETIC_MLange_apps) • [🐛 Report Bug](https://github.com/zetic-ai/ZETIC_MLange_apps/issues) • [👾 Discord](https://discord.gg/gqhDWfZbgU) • [🚀 Try Melange](https://mlange.zetic.ai) • [📖 Documentation](https://docs.zetic.ai)
 
