@@ -1,129 +1,82 @@
-<img width="3601" height="1076" alt="Artboard 8 copy@3x" src="https://github.com/user-attachments/assets/90b96737-55a0-45b9-be47-cec2073bf6fe" />
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/zetic-ai/.github/main/profile/assets/zetic-white.png">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/zetic-ai/.github/main/profile/assets/zetic-black.png">
+  <img alt="ZETIC" src="https://raw.githubusercontent.com/zetic-ai/.github/main/profile/assets/zetic-black.png" width="150">
+</picture>
 
-# ZETIC - On-Device AI for Everything
+<br><br>
 
-**Select. Benchmark. Deploy.**  <br/>
-<i> for any model, on any device, in any framework </i> 
-<br/><br/>
+<picture>
+  <source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/zetic-ai/.github/main/profile/assets/hero-mobile-dark.svg">
+  <source media="(max-width: 600px) and (prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/zetic-ai/.github/main/profile/assets/hero-mobile-light.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/zetic-ai/.github/main/profile/assets/hero-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/zetic-ai/.github/main/profile/assets/hero-light.svg">
+  <img alt="Your model. Your hardware. Its own engine. Tailored inference infrastructure, from the model graph to the chip." src="https://raw.githubusercontent.com/zetic-ai/.github/main/profile/assets/hero-light.svg" width="1200">
+</picture>
 
-We eliminate the need for costly GPU cloud servers by transforming your existing AI models into **NPU-optimized, on-device runtimes** in **hours, not weeks**, across **any mobile device, any OS**.
+# Tailored inference infrastructure for Physical AI.
 
-## 📡 Connect with Us
-[![Website](https://img.shields.io/badge/Website-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://zetic.ai)
-[![Discord](https://img.shields.io/badge/Discord-Join%20Us-7289da?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/gqhDWfZbgU)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/company/zetic-ai)
-[![Email](https://img.shields.io/badge/Email-red?style=for-the-badge&logo=gmail&logoColor=white)](mailto:contact@zetic.ai)
+ZETIC builds inference engines around **your model, your workload and your hardware**. We co-design the model graph, numerical precision, native kernels, memory layout and runtime so robot intelligence can run faster on the machine that needs it.
 
----
+Our work spans **VLA policies, vision-language models, perception and language models**, with execution paths built for NVIDIA Jetson, Qualcomm Hexagon and Apple GPUs.
 
-## 🚀 About ZETIC
+**[Explore Ixian Bench ↗](https://ixian.zetic.ai/) · [Watch robot demos ↗](https://zetic.ai/demos/) · [Website ↗](https://zetic.ai/) · [Talk to us ↗](mailto:contact@zetic.ai)**
 
-AI services shouldn't be **tied** to the cloud. <br/><br/>
-**Melange** is our flagship **end-to-end on-device AI deployment platform**. We help mobile developers run AI models locally, from flagship smartphones to budget devices, making AI **Faster, Cheaper, Safer, and Independent**.
+## The benchmark changes the build.
 
-We provide:
-- **Automated Model Conversion**: PyTorch, ONNX, or TFLite → device-specific NPU libraries.
-- **Peak Performance**: Up to **60× faster** than mobile CPU inference, with massive energy savings.
-- **Cross-Platform SDKs**: Swift, Kotlin, Flutter, React Native for any app stack.
-- **Benchmarking**: Test your models across **200+ global devices** with real-world hardware metrics.
-- **Full Privacy by Design**: All inference happens locally; no data leaves the device.
+**Measure the complete workload.** Find where the model waits: kernel launches, weight reads, intermediate tensors, state transfers or work that the application never consumes.
 
-### 🧠 Why We're Different
+**Redesign the execution.** Write or specialize kernels, change tensor layouts and precision boundaries, then build the runtime plan that connects them. Reuse the implementations that fit the next model and target.
 
-While other frameworks focus on model quantization or partial device deployment, **we handle the entire lifecycle**:
-1. **Analyze** model architecture and runtime requirements.
-2. **Convert & Optimize** for heterogeneous NPUs (Qualcomm, MediaTek, Apple, etc.).
-3. **Benchmark** on real devices for latency, accuracy, and memory.
-4. **Deliver** drop-in SDKs ready for mobile integration.
-5. **Support** continuous updates at scale.
+**Let output quality decide what ships.** Compare latency alongside numerical behavior and task outcomes. A faster kernel earns its place by improving the assembled workload within its acceptance criteria.
 
-> No guesswork. No vendor lock-in. Just working on-device AI in hours, not weeks.
+<picture>
+  <source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/zetic-ai/.github/main/profile/assets/method-mobile-dark.svg">
+  <source media="(max-width: 600px) and (prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/zetic-ai/.github/main/profile/assets/method-mobile-light.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/zetic-ai/.github/main/profile/assets/method-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/zetic-ai/.github/main/profile/assets/method-light.svg">
+  <img alt="Three before-and-after execution paths. NVIDIA fuses gated activation into a register-local epilogue, eliminating an intermediate global-memory store and reload. Qualcomm IQ9 moves KV ownership and attention from one NPU to local head groups on both NPUs. Apple performs token selection on the GPU, returns the token ID and keeps KV and convolution state resident. Each build is measured, revised and qualified." src="https://raw.githubusercontent.com/zetic-ai/.github/main/profile/assets/method-light.svg" width="1200">
+</picture>
 
-<br/>
+## Measured on the hardware.
 
-## 📊 Real Benchmark Highlights
+| Model × target | Starting point | Tailored build | Measurement |
+| :--- | ---: | ---: | :--- |
+| [**RLDX-1 · Jetson AGX Thor**](https://ixian.zetic.ai/models/rldx1) | 156.52 ms<br>torch.compile BF16 | **59.405 ms**<br>Mixed precision | Action-chunk latency · p50 |
+| [**SmolVLA · Jetson AGX Orin**](https://ixian.zetic.ai/models/smolvla) | 94.15 ms<br>torch.compile BF16 | **35.39 ms**<br>Mixed precision | Action-chunk latency · p50 |
+| [**LFM3-1.7B · Dragonwing IQ9**](https://lfm3.zetic.ai/#iq9-engineering) | 17.7 tok/s<br>Native A | **26.6 tok/s**<br>Native B | 64K-context decode |
 
-### YOLO26 — NPU Latency (ms)
-| Device | Manufacturer | CPU | GPU | NPU |
-|--------|--------------|-----|-----|-----|
-| Apple iPhone 16 Pro | Apple | 91.44 | 6.64 | **1.88** |
-| Apple iPhone 15 Pro | Apple | 86.80 | 9.22 | **2.57** |
-| Samsung Galaxy S25 Ultra | Qualcomm | 52.10 | 153.27 | **11.05** |
-| Samsung Galaxy Tab S9 | Qualcomm | 64.75 | 200.13 | **13.61** |
-| Xiaomi 13 Pro | Qualcomm | 58.97 | 118.20 | **12.79** |
+<details>
+<summary>Measurement conditions and output-quality evidence</summary>
 
-### Whisper-tiny-encoder — NPU Latency (ms)
-| Device | Manufacturer | CPU | GPU | NPU |
-|--------|--------------|-----|-----|-----|
-| Apple iPhone 16 | Apple | 553.78 | 42.56 | **18.82** |
-| Apple iPhone 15 Pro | Apple | 521.65 | 40.89 | **19.67** |
-| Samsung Galaxy S25 Ultra | Qualcomm | 246.08 | **102.36** | 128.94 |
-| Samsung Galaxy S24 Ultra | Qualcomm | 270.61 | **120.29** | 147.12 |
-| Xiaomi 12 | Qualcomm | 302.33 | 280.13 | **151.77** |
+Jetson rows compare BF16 `torch.compile` with ZETIC mixed precision at batch one. RLDX uses four timing rounds per build; SmolVLA uses two reference rounds and one ZETIC round, with remeasurement pending in the public record. IQ9 compares two native builds: moving attention and KV ownership together lets both NPUs perform attention. Each linked record supplies its own test conditions and output-quality evidence.
 
-> *Note: Lower is better. Full dataset available on the [Melange Dashboard](https://mlange.zetic.ai).*
+</details>
 
-<br/>
+<br>
 
-## 👨🏻‍💻 Plug-and-play Integration
+**[Compare more models, boards and execution paths on Ixian Bench →](https://ixian.zetic.ai/)**
 
-- Deploying NPU-accelerated models takes just a few lines of code with the **Melange SDK**.
+## Inside the stack.
 
-- **iOS Integration** (Swift)
+| Work | What it makes possible | Explore |
+| :--- | :--- | :--- |
+| **Ixian** | Model-specific compilation and native execution for robotics workloads. Graph rewrites, transformed weights and specialized kernels become an executable runtime plan. | [Measured builds](https://ixian.zetic.ai/) |
+| **Ixian Bench** | Inspect latency, memory, energy and quality records across models, hardware and execution paths. | [Benchmark explorer](https://ixian.zetic.ai/models/compare) |
+| **Native LFM3 execution** | Target-specific kernels, persistent state and memory movement across Hexagon and Apple GPU implementations. | [Implementation report](https://lfm3.zetic.ai/) |
+| **Robot workload R&D** | Extend execution design into multi-model orchestration and decision-model selection, including RoboRouter research. | [Robot demonstrations](https://zetic.ai/demos/) |
 
-``` swift
-// (1) Load Melange model
-let model = try ZeticMLangeModel(tokenKey: "MLANGE_PERSONAL_KEY", "MODEL_REPO_NAME")
+## Build with ZETIC.
 
-// (2) Prepare model inputs
-let inputs: [Tensor] = [] // Prepare your inputs
+Bring the **model, target board and workload**. We work through the execution constraints, define performance and output-quality requirements, and build an inference path for your system.
 
-// (3) Run and get output tensors of the model
-let outputs = try model.run(inputs)
+**[contact@zetic.ai](mailto:contact@zetic.ai)** · [LinkedIn](https://www.linkedin.com/company/zetic-ai/)
 
-```
+<details>
+<summary><b>Also building for mobile: Melange</b></summary>
 
-- **Android Integration** (Kotlin, Java)
+Melange is our on-device inference product for iOS and Android apps, with device benchmarking and SDK integration.
 
-``` kotlin
-// (1) Load Melange model
-val model = ZeticMLangeModel(context, "MLANGE_PERSONAL_KEY", "MODEL_REPO_NAME")
+[Explore Melange](https://zetic.ai/melange/) · [Documentation](https://docs.zetic.ai/) · [Example applications](https://github.com/zetic-ai/ZETIC_MLange_apps)
 
-// (2) Prepare model inputs
-val inputs: Array<Tensor> = // Prepare your inputs
-
-// (3) Run and get output tensors of the model
-val outputs = model.run(inputs)
-```
-<br/>
-
-
-## 🛠️ Ready to Build?
-
-Don't start from scratch. We have created a repository of **production-ready, open-source, on-device AI apps** that you can clone, run, and modify in minutes.
-
-### [Explore Melange Apps Repository](https://github.com/zetic-ai/ZETIC_MLange_apps)
-
-<br/>
-</div>
-
----
-
-## 📚 Resources
-
-### Official Links
-- **Website**: [zetic.ai](https://zetic.ai)
-- **Melange Dashboard**: [mlange.zetic.ai](https://mlange.zetic.ai) — Get NPU-optimized SDKs, view benchmarks, and upload custom models.
-- **Documentation**: [docs.zetic.ai](https://docs.zetic.ai) — Full API reference and implementation guides.
-- **Discord**: [Join our Community](https://discord.gg/gqhDWfZbgU) — Get support, share your projects, and meet other developers.
-
-### Check Out Our Official App
-See Melange performance in action on your own device: **ZeticApp**: [**Android**](https://play.google.com/store/apps/details?id=com.zeticai.zeticapp) | [**iOS**](https://apps.apple.com/app/zeticapp/id6739862746)
-
-<div align="center">
-
-**By ZETIC**
-
-[⭐ Star us on GitHub](https://github.com/zetic-ai/ZETIC_MLange_apps) • [🐛 Report Bug](https://github.com/zetic-ai/ZETIC_MLange_apps/issues) • [👾 Discord](https://discord.gg/gqhDWfZbgU) • [🚀 Try Melange](https://mlange.zetic.ai) • [📖 Documentation](https://docs.zetic.ai)
-
-</div>
+</details>
