@@ -1,17 +1,17 @@
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/zetic-ai/.github/main/profile/assets/zetic-white.png">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/zetic-ai/.github/main/profile/assets/zetic-black.png">
-  <img alt="ZETIC" src="https://raw.githubusercontent.com/zetic-ai/.github/main/profile/assets/zetic-black.png" width="150">
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/zetic-white.png">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/zetic-black.png">
+  <img alt="ZETIC" src="./assets/zetic-black.png" width="150">
 </picture>
 
 <br><br>
 
 <picture>
-  <source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/zetic-ai/.github/main/profile/assets/hero-mobile-dark.svg">
-  <source media="(max-width: 600px) and (prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/zetic-ai/.github/main/profile/assets/hero-mobile-light.svg">
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/zetic-ai/.github/main/profile/assets/hero-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/zetic-ai/.github/main/profile/assets/hero-light.svg">
-  <img alt="Your model. Your hardware. Its own engine. Tailored inference infrastructure, from the model graph to the chip." src="https://raw.githubusercontent.com/zetic-ai/.github/main/profile/assets/hero-light.svg" width="1200">
+  <source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="./assets/hero-mobile-dark.svg">
+  <source media="(max-width: 600px) and (prefers-color-scheme: light)" srcset="./assets/hero-mobile-light.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/hero-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/hero-light.svg">
+  <img alt="Your model. Your hardware. Its own engine. Tailored inference infrastructure, from the model graph to the chip." src="./assets/hero-light.svg" width="1200">
 </picture>
 
 # Tailored inference infrastructure for Physical AI.
@@ -31,11 +31,11 @@ Our work spans **VLA policies, vision-language models, perception and language m
 **Let output quality decide what ships.** Compare latency alongside numerical behavior and task outcomes. A faster kernel earns its place by improving the assembled workload within its acceptance criteria.
 
 <picture>
-  <source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/zetic-ai/.github/main/profile/assets/method-mobile-dark.svg">
-  <source media="(max-width: 600px) and (prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/zetic-ai/.github/main/profile/assets/method-mobile-light.svg">
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/zetic-ai/.github/main/profile/assets/method-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/zetic-ai/.github/main/profile/assets/method-light.svg">
-  <img alt="Three before-and-after execution paths. NVIDIA fuses gated activation into a register-local epilogue, eliminating an intermediate global-memory store and reload. Qualcomm IQ9 moves KV ownership and attention from one NPU to local head groups on both NPUs. Apple performs token selection on the GPU, returns the token ID and keeps KV and convolution state resident. Each build is measured, revised and qualified." src="https://raw.githubusercontent.com/zetic-ai/.github/main/profile/assets/method-light.svg" width="1200">
+  <source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="./assets/method-mobile-dark.svg">
+  <source media="(max-width: 600px) and (prefers-color-scheme: light)" srcset="./assets/method-mobile-light.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/method-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/method-light.svg">
+  <img alt="Three before-and-after execution paths. NVIDIA fuses gated activation into a register-local epilogue, eliminating an intermediate global-memory store and reload. Qualcomm IQ9 moves KV ownership and attention from one NPU to local head groups on both NPUs. Apple performs token selection on the GPU, returns the token ID and keeps KV and convolution state resident. Each build is measured, revised and qualified." src="./assets/method-light.svg" width="1200">
 </picture>
 
 ## Measured on the hardware.
