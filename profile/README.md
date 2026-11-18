@@ -20,7 +20,7 @@ ZETIC builds inference engines around **your model, your workload and your hardw
 
 Our work spans **VLA policies, vision-language models, perception and language models**, with execution paths built for NVIDIA Jetson, Qualcomm Hexagon and Apple GPUs.
 
-**[Explore Ixian Bench ↗](https://ixian.zetic.ai/) · [Watch robot demos ↗](https://zetic.ai/demos/) · [Website ↗](https://zetic.ai/) · [Talk to us ↗](mailto:contact@zetic.ai)**
+**[Explore ixian-bench ↗](https://ixian.zetic.ai/) · [Watch robot demos ↗](https://zetic.ai/demos/) · [Website ↗](https://zetic.ai/) · [Talk to us ↗](mailto:contact@zetic.ai)**
 
 ## The benchmark changes the build.
 
@@ -55,14 +55,14 @@ Jetson rows compare BF16 `torch.compile` with ZETIC mixed precision at batch one
 
 <br>
 
-**[Compare more models, boards and execution paths on Ixian Bench →](https://ixian.zetic.ai/)**
+**[Compare more models, boards and execution paths on ixian-bench →](https://ixian.zetic.ai/)**
 
 ## Inside the stack.
 
 | Work | What it makes possible | Explore |
 | :--- | :--- | :--- |
-| **Ixian** | Model-specific compilation and native execution for robotics workloads. Graph rewrites, transformed weights and specialized kernels become an executable runtime plan. | [Measured builds](https://ixian.zetic.ai/) |
-| **Ixian Bench** | Inspect latency, memory, energy and quality records across models, hardware and execution paths. | [Benchmark explorer](https://ixian.zetic.ai/models/compare) |
+| **ixian** | Model-specific compilation and native execution for robotics workloads. Graph rewrites, transformed weights and specialized kernels become an executable runtime plan. | [Measured builds](https://ixian.zetic.ai/) |
+| **ixian-bench** | Inspect latency, memory, energy and quality records across models, hardware and execution paths. | [Benchmark explorer](https://ixian.zetic.ai/models/compare) |
 | **Native LFM3 execution** | Target-specific kernels, persistent state and memory movement across Hexagon and Apple GPU implementations. | [Implementation report](https://lfm3.zetic.ai/) |
 | **Robot workload R&D** | Extend execution design into multi-model orchestration and decision-model selection, including RoboRouter research. | [Robot demonstrations](https://zetic.ai/demos/) |
 
